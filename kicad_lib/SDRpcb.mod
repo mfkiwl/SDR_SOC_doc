@@ -1,0 +1,67 @@
+PCBNEW-LibModule-V1  3.2.2015 20:20:30
+# encoding utf-8
+Units mm
+$INDEX
+M3
+SMD7x5
+$EndINDEX
+$MODULE M3
+Po 0 0 0 15 54D11F7B 00000000 ~~
+Li M3
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -2 1 1 0 0.15 N V 21 N "M3"
+T1 0 2.5 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "1" C 7 7 0 0 0
+Dr 3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE M3
+$MODULE SMD7x5
+Po 0 0 0 15 54CFD4F3 00000000 ~~
+Li SMD7x5
+Sc 0
+AR 
+Op 0 0 0
+T0 0 0 1 1 0 0.15 N V 21 N "SMD7x5"
+T1 0 1.5 1 1 0 0.15 N V 21 N "VAL**"
+DS -3 3.5 -4 3.5 0.15 21
+DS -4 3.5 -4 2.5 0.15 21
+DS -3.5 2.5 3.5 2.5 0.15 21
+DS 3.5 2.5 3.5 -2.5 0.15 21
+DS 3.5 -2.5 -3.5 -2.5 0.15 21
+DS -3.5 -2.5 -3.5 2.5 0.15 21
+$PAD
+Sh "1" R 1.8 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.5 2
+$EndPAD
+$PAD
+Sh "2" R 1.8 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.58 2
+$EndPAD
+$PAD
+Sh "3" R 1.8 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.58 -2.2
+$EndPAD
+$PAD
+Sh "4" R 1.8 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.5 -2.2
+$EndPAD
+$EndMODULE SMD7x5
+$EndLIBRARY

@@ -1,0 +1,58 @@
+\documentclass[a4paper, 12pt, titlepage, oneside]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[czech]{babel}
+\usepackage[total={18.5cm,25cm}, top=3cm, left=1.25cm, includefoot]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+\usepackage{fancyhdr}
+\usepackage{amsmath} % větší zlomyk pmocí \dfrac
+\usepackage{graphicx} % vkládání obrázků
+\usepackage{float} % H aby bloky neuplavali
+\usepackage{ctable} % horozontální čára s nastavitelnou šířkou a mezerami od okolí
+
+\usepackage{pdfpages} % vložení pdf stránky
+
+% záhlaví a zápatí ----------------------------------------------------------------
+\pagestyle{fancy}
+\fancyhf{}
+% jednostranná sazba
+\fancyhead[R]{Jan \textsc{Vykydal} 4A}
+\fancyhead[L]{SDR Software Defined Radio}
+\fancyfoot[C]{\thepage/\pageref{konec}}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+%\renewcommand{\figurename}{Obrázek č.}
+%\renewcommand{\tablename}{Tabulka č.}
+
+%\renewcommand{\contentsname}{Obsah} 
+%\renewcommand{\listfigurename}{Seznam obrázků} 
+%\renewcommand{\listtablename}{Seznam tabulek} 
+
+
+
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+\setcounter{page}{1}
+
+
+\begin{document}
+
+	\input{title.tex}
+	\clearpage
+	\tableofcontents
+	\listoftables
+	\listoffigures
+	\clearpage
+	\input{uvod.tex}
+	\input{sch.tex}
+	\input{dps.tex}
+	\input{seznam.tex}
+	\input{pouz.tex}
+	\label{konec}
+
+\end{document}

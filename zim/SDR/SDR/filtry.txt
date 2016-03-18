@@ -1,0 +1,23 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-02-14T22:30:33+01:00
+
+====== filtry ======
+Created Sobota 14 únor 2015
+
+Pokusím se během dneška a zítřka dát dohromady filtry, spolu se zesilovačem. potom už nebude skoro nic bránit dokončení projektu z RFHW hlediska.
+Trocha teorie k výpočtům cívek http://pandatron.cz/?209&vypocet_civek.
+
+===== rekonstrukční filtr za DDS =====
+Rekonstrukční fitr za DDSku jsem udělal ze vzduchové cívky 13závitů u 0.8mm drázu na šroubováku o průměru 4mm, ktomu jsou připojený dva kondenzátory 68p a dva rezistory 50R.
+Výpočky byli provedeny v programu RFSim99, cívky byla spočítání pomocí http://ok2ppk.cz/index.php?pg=aplcoil a ověřena pomocí http://www.radio-foto.eu/radio/civka.php.{{~/Projects/SDR/foto/IMG_20150215_212308.jpg?width=300}}
+
+vzduhovou cívku je mozno nahradit 8 závity na amidonu T 44-2 výsledná indukčnost je potom 332.8nH. A_{L} amidonu T 44-2 je 0.0052.
+
+kapacitní trimry s EZK http://www.ezk.cz/trimry_kapacitni.htm
+ten můj zelenej CKT 2.5-22p oranžovej od Mongiho 6-50pF
+
+===== 14.00-14.35MHz pásmová propust =====
+
+==== rezonanční obvod na 14.35 MHz ====
+Použité jádro: Amidon T 44-2. Požadovaná vstupní impedance je 50R.

@@ -1,0 +1,227 @@
+Cmp-Mod V01 Created by Cvpcb 0.201504031001+5570~22~ubuntu14.04.1-product   date = So 4. duben 2015, 15:11:00 CEST
+
+BeginCmp
+TimeStamp = /551D88AE;
+Reference = C1;
+ValeurCmp = 470u/100V;
+IdModule  = Capacitors_Elko_ThroughHole:Elko_vert_25x12.5mm_RM5_CopperClear;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D894B;
+Reference = C2;
+ValeurCmp = 470u/100V;
+IdModule  = Capacitors_Elko_ThroughHole:Elko_vert_25x12.5mm_RM5_CopperClear;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D9CE7;
+Reference = C3;
+ValeurCmp = 470u/100V;
+IdModule  = Capacitors_Elko_ThroughHole:Elko_vert_25x12.5mm_RM5_CopperClear;
+EndCmp
+
+BeginCmp
+TimeStamp = /551E2FB9;
+Reference = C4;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551E305F;
+Reference = C5;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551E4272;
+Reference = C6;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D8F05;
+Reference = C7;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D8FEE;
+Reference = C8;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551DA56B;
+Reference = C9;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551EEF0A;
+Reference = D1;
+ValeurCmp = DB104;
+IdModule  = w_pth_diodes:bridge_DFM;
+EndCmp
+
+BeginCmp
+TimeStamp = /551EF1E5;
+Reference = D2;
+ValeurCmp = DB104;
+IdModule  = w_pth_diodes:bridge_DFM;
+EndCmp
+
+BeginCmp
+TimeStamp = /551DB5CA;
+Reference = D3;
+ValeurCmp = D_Schottky;
+IdModule  = w_pth_diodes:diode_do41;
+EndCmp
+
+BeginCmp
+TimeStamp = /551DB5F8;
+Reference = D4;
+ValeurCmp = D_Schottky;
+IdModule  = w_pth_diodes:diode_do41;
+EndCmp
+
+BeginCmp
+TimeStamp = /551DB627;
+Reference = D5;
+ValeurCmp = D_Schottky;
+IdModule  = w_pth_diodes:diode_do41;
+EndCmp
+
+BeginCmp
+TimeStamp = /551E0B7D;
+Reference = F1;
+ValeurCmp = 1A/230V;
+IdModule  = SDRlib:fuse_socket;
+EndCmp
+
+BeginCmp
+TimeStamp = /551EAF09;
+Reference = M1;
+ValeurCmp = M3;
+IdModule  = SDRlib:M3;
+EndCmp
+
+BeginCmp
+TimeStamp = /551F73FB;
+Reference = P1;
+ValeurCmp = L1;
+IdModule  = Wire_Pads:SolderWirePad_single_2mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = /551F7384;
+Reference = P2;
+ValeurCmp = L2;
+IdModule  = Wire_Pads:SolderWirePad_single_2mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = /551EECFA;
+Reference = P3;
+ValeurCmp = CON_EU_PANEL;
+IdModule  = SDRlib:CON_EU_PANEL;
+EndCmp
+
+BeginCmp
+TimeStamp = /551F73BD;
+Reference = P4;
+ValeurCmp = N1;
+IdModule  = Wire_Pads:SolderWirePad_single_2mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = /551F7336;
+Reference = P5;
+ValeurCmp = N2;
+IdModule  = Wire_Pads:SolderWirePad_single_2mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = /551E9596;
+Reference = P6;
+ValeurCmp = MLW6;
+IdModule  = w_conn_strip:vasch_strip_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /551E250D;
+Reference = P7;
+ValeurCmp = MLW6;
+IdModule  = w_conn_strip:vasch_strip_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /551E2AC2;
+Reference = P8;
+ValeurCmp = MLW6;
+IdModule  = w_conn_strip:vasch_strip_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /551E7BA5;
+Reference = P9;
+ValeurCmp = MLW6;
+IdModule  = w_conn_strip:vasch_strip_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /551E8915;
+Reference = P10;
+ValeurCmp = MLW6;
+IdModule  = w_conn_strip:vasch_strip_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /551E9A20;
+Reference = P11;
+ValeurCmp = MLW6;
+IdModule  = w_conn_strip:vasch_strip_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D703E;
+Reference = T1;
+ValeurCmp = TRANSFO2;
+IdModule  = SDRlib:BV_EI_382;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D70DE;
+Reference = T2;
+ValeurCmp = TRANSFO;
+IdModule  = SDRlib:BV_EI_303;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D83ED;
+Reference = U1;
+ValeurCmp = 7805;
+IdModule  = Discret:LM78XXV;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D8528;
+Reference = U2;
+ValeurCmp = 7905;
+IdModule  = SDRlib:LM79XXV;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D96C4;
+Reference = U3;
+ValeurCmp = LM7812;
+IdModule  = Discret:LM78XXV;
+EndCmp
+
+EndListe

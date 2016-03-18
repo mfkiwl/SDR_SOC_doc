@@ -1,0 +1,164 @@
+Cmp-Mod V01 Created by Cvpcb 0.201504031001+5570~22~ubuntu14.04.1-product   date = Ne 5. duben 2015, 00:08:54 CEST
+
+BeginCmp
+TimeStamp = /54D803A1;
+Reference = C1;
+ValeurCmp = 10u/50v;
+IdModule  = Capacitors_Elko_ThroughHole:Elko_vert_11x5mm_RM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /55201DAB;
+Reference = C2;
+ValeurCmp = 100p;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55201E4F;
+Reference = C3;
+ValeurCmp = 6-50p;
+IdModule  = SDRlib:CT-6-50p;
+EndCmp
+
+BeginCmp
+TimeStamp = /5520523D;
+Reference = C4;
+ValeurCmp = 4p7;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /552026ED;
+Reference = C5;
+ValeurCmp = 100p;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /552026F3;
+Reference = C6;
+ValeurCmp = 6-50p;
+IdModule  = SDRlib:CT-6-50p;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E4A3C9;
+Reference = C7;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E4B8E8;
+Reference = C8;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E4FD60;
+Reference = C9;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E4A3E2;
+Reference = C10;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E4A3F0;
+Reference = C11;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55207277;
+Reference = P1;
+ValeurCmp = ANT;
+IdModule  = Sockets_BNC:BNC_Socket_TYCO-AMP_LargePads;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D7FA75;
+Reference = P2;
+ValeurCmp = MLW6;
+IdModule  = SDRlib:vasch_strip_3x2_90;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E4A3EA;
+Reference = P3;
+ValeurCmp = LNA_OUT;
+IdModule  = SDRlib:sma_90_r300.124.403;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E4A419;
+Reference = Q1;
+ValeurCmp = KF630D;
+IdModule  = Transistors_OldSowjetAera:OldSowjetaera_Transistor_Type-II_BigPads;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E4A3AD;
+Reference = R1;
+ValeurCmp = 560R;
+IdModule  = Resistors_SMD:R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E4A3B3;
+Reference = R2;
+ValeurCmp = 500R;
+IdModule  = Resistors_SMD:R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E4AB32;
+Reference = R3;
+ValeurCmp = 4R7;
+IdModule  = Resistors_SMD:R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E4A40B;
+Reference = R4;
+ValeurCmp = 12R;
+IdModule  = Resistors_SMD:R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E4FCE2;
+Reference = R5;
+ValeurCmp = 3k3;
+IdModule  = Resistors_SMD:R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /55208F00;
+Reference = T1;
+ValeurCmp = TRXTOY;
+IdModule  = Choke_Toroid_ThroughHole:Transformer_Toroid_horizontal_Diameter12-5mm_Amidon-T44;
+EndCmp
+
+BeginCmp
+TimeStamp = /552090AB;
+Reference = T2;
+ValeurCmp = TRXTOY;
+IdModule  = Choke_Toroid_ThroughHole:Transformer_Toroid_horizontal_Diameter12-5mm_Amidon-T44;
+EndCmp
+
+BeginCmp
+TimeStamp = /55209190;
+Reference = T3;
+ValeurCmp = TR11;
+IdModule  = Choke_Toroid_ThroughHole:Transformer_Toroid_horizontal_Diameter12-5mm_Amidon-T44;
+EndCmp
+
+EndListe

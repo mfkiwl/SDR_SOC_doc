@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-02-14T22:29:52+01:00
+
+====== SDR ======
+Created Sobota 14 únor 2015
+* [[+širokopásmový zesilovač|širokopásmový zesilovač]]
+* [[+filtry|filtry]]

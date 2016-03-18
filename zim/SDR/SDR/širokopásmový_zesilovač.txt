@@ -1,0 +1,25 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-02-15T22:34:00+01:00
+
+====== širokopásmový zesilovač ======
+Created Neděle 15 únor 2015
+
+Použitý tranzistor KF630D pro inspiraci google >>> lna 2n5109
+parametry:
+	* hFE: min 30
+	* Material of transistor: Si
+	* Polarity: NPN
+	* Maximum collector power dissipation (Pc), W: 5
+	* Maximum collector-base voltage |Ucb|, V: 36
+	* Maximum collector-emitter voltage |Uce|, V: 25
+	* Maximum emitter-base voltage |Ueb|, V: 3
+	* Maximum collector current |Ic max|, A: 0.4
+	* Maksimalna temperatura (Tj), °C: 150
+	* Transition frequency (ft), MHz: 160
+	* Collector capacitance (Cc), pF:
+	* Forward current transfer ratio (hFE), min: 30
+
+Oživil sem širokopásmový zesilovač použil sem zapojení http://ok2zi.blogspot.cz/2010/11/pasmova-propust-predzesilovac-pro-160m.html. Funguje dobře, ale Au je poměrně dost závislé na frekvenci přesný graf změřím odpoledne, udělal sem jednu obr botu u bifiláru se musí spojit konec se začátkem! Nutno poznamenat chybymi se člověk učí, tato cbyba byla nejspíš způsobená únavou. No nic jdu spá s pocitem dobže odvedené práce :D.
+
+{{~/Downloads/w7iuv_amp.gif}}

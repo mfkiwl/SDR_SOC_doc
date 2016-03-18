@@ -1,0 +1,88 @@
+\documentclass[a4paper, 12pt, titlepage, oneside]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[czech]{babel}
+\usepackage[total={17cm,25cm}, top=3cm, left=2cm, includefoot]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+\usepackage{fancyhdr}
+\usepackage{amsmath} % větší zlomyk pmocí \dfrac
+\usepackage{graphicx} % vkládání obrázků
+\usepackage{pdflscape} % stránka na šířku
+\usepackage{float} % H aby bloky neuplavali
+\usepackage{ctable} % horozontální čára s nastavitelnou šířkou a mezerami od okolí
+
+\usepackage{pdfpages} % vložení pdf stránky
+
+% balíšky pro hypertextové odkazy a hlavička dokumentu
+\usepackage[bookmarksopen,plainpages=false,urlcolor=blue,bookmarks, pdfauthor={Jan Vykydal}, pdftitle={SDR - Software Defined Radio}, pdfsubject={software defined receiver for shortwave band}, pdfkeywords={SDR, software defined radio, receiver, filter, digitization, microcontroller, ATmega8, mixer, DDS, direct digital synthesis, oscillator, Johnson counter, quadrature detector.}]{hyperref}
+\usepackage{url}
+
+% náhledy stránek pro pdf
+\usepackage{thumbpdf}
+
+
+
+
+
+
+% záhlaví a zápatí ----------------------------------------------------------------
+\pagestyle{fancy}
+\fancyhf{}
+
+% jednostranná sazba
+%\fancyhead[R]{Jan \textsc{Vykydal} 4A}
+\fancyhead[L]{SDR přijímač pro pásmo KV}
+\fancyfoot[C]{\thepage/\pageref{konec}}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+%\renewcommand{\figurename}{Obrázek č.}
+%\renewcommand{\tablename}{Tabulka č.}
+
+%\renewcommand{\contentsname}{Obsah} 
+%\renewcommand{\listfigurename}{Seznam obrázků} 
+%\renewcommand{\listtablename}{Seznam tabulek} 
+
+
+
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+%odsazeni
+\newcommand{\ind}{\hspace*{1cm}}
+
+\setcounter{page}{1}
+
+
+\begin{document}
+ 
+	\input{title.tex}
+	\clearpage
+	\setcounter{page}{2}
+	%\includepdf[landscape=false]{zadani.pdf}	
+	%\input{prohlaseni.tex}
+	\input{start.tex}
+	\clearpage
+	\tableofcontents	
+	\clearpage
+	\input{uvod.tex}
+	\input{koncept.tex}
+	\input{lna.tex}	
+	\input{cu.tex}	
+	\input{lo.tex}
+	\input{mix.tex}
+	\input{zdroj.tex}
+	\input{sw.tex}
+	\input{navod.tex}
+	\input{zaver.tex}	
+	\input{litoska.tex}
+	\listoftables
+	\addcontentsline{toc}{section}{Seznam tabulek} 
+	\listoffigures	
+	\addcontentsline{toc}{section}{Seznam obrázků} 
+	\input{prilohy.tex}
+	\label{konec}
+\end{document}
